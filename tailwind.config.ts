@@ -52,6 +52,13 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				industrial: {
+					dark: 'hsl(var(--industrial-dark))',
+					darker: 'hsl(var(--industrial-darker))',
+					light: 'hsl(var(--industrial-light))',
+					accent: 'hsl(var(--industrial-accent))',
+					'accent-hover': 'hsl(var(--industrial-accent-hover))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
