@@ -12,10 +12,10 @@ const About = () => {
       {/* Hero Section */}
       <section className="bg-industrial-darker text-primary-foreground py-16">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">About Bavaria Equipment</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">About LEHCOF TECHNIC</h1>
           <p className="text-xl opacity-90 max-w-2xl mx-auto">
-            German managed excellence serving the Middle East with premium industrial solutions 
-            for over decades of experience.
+            Leading industrial equipment and lubricants supplier serving the Middle East 
+            with premium solutions and decades of experience.
           </p>
         </div>
       </section>
@@ -28,14 +28,15 @@ const About = () => {
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Our Story</h2>
               <div className="space-y-6 text-muted-foreground">
                 <p>
-                  Bavaria Equipment Trading (BET) LLC is a German managed company that has expanded 
-                  operations in the Middle Eastern region, with its Headquarter in the UAE. BET has 
-                  established a solid foundation on core values, sincere customer relationships and 
-                  extensive experience in the field that spans over decades.
+                  LEHCOF TECHNIC LLC is a leading industrial equipment and lubricants supplier 
+                  that has established strong operations in the Middle Eastern region, with its 
+                  headquarters in the UAE. We have built a solid foundation on core values, 
+                  sincere customer relationships and extensive experience in the field that 
+                  spans over decades.
                 </p>
                 <p>
-                  We are known for being one of the region's leading supplier of a diverse range of 
-                  European & American made Technical products. Through our "One Stop Shop" approach 
+                  We are known for being one of the region's leading suppliers of a diverse range of 
+                  European & American made technical products. Through our "One Stop Shop" approach 
                   to all your engineering & consumables needs, we cover a comprehensive range of 
                   products, after sales services and rentals across a wide landscape of Industries.
                 </p>
@@ -48,7 +49,7 @@ const About = () => {
             <div className="aspect-video bg-muted rounded-lg flex items-center justify-center">
               <img 
                 src="/placeholder.svg" 
-                alt="Bavaria Equipment facility"
+                alt="LEHCOF TECHNIC facility"
                 className="w-full h-full object-cover rounded-lg"
               />
             </div>
@@ -178,7 +179,7 @@ const About = () => {
             Ready to Partner With Us?
           </h2>
           <p className="text-xl opacity-90 mb-8 max-w-2xl mx-auto">
-            Experience the Bavaria Equipment difference. Contact us today to discuss 
+            Experience the LEHCOF TECHNIC difference. Contact us today to discuss 
             your industrial equipment and lubricant needs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

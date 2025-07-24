@@ -19,11 +19,11 @@ const Header = () => {
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="h-4 w-4" />
-                <span>info@bavaria-equipment.com</span>
+                <span>info@lehcof-technic.com</span>
               </div>
             </div>
             <div className="hidden md:block">
-              <span>#1 Supplier For Industrial Lubricants | Batteries | Concrete Pump Spares</span>
+              <span>#1 Supplier For Industrial Lubricants | Batteries | Equipment Parts</span>
             </div>
           </div>
         </div>
@@ -35,10 +35,10 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
             <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-xl">BE</span>
+              <span className="text-primary-foreground font-bold text-xl">LT</span>
             </div>
             <div>
-              <h1 className="text-xl font-bold text-foreground">Bavaria Equipment</h1>
+              <h1 className="text-xl font-bold text-foreground">LEHCOF TECHNIC</h1>
               <p className="text-sm text-muted-foreground">Trading & Services</p>
             </div>
           </Link>

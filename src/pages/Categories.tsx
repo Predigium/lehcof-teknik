@@ -40,7 +40,7 @@ const categories = [
     description: "Heavy-duty batteries for industrial applications and backup power systems.",
     icon: Battery,
     productCount: 18,
-    brands: ["GP", "Bavaria", "Industrial Pro"],
+    brands: ["GP", "LEHCOF", "Industrial Pro"],
     features: ["Deep Cycle", "Maintenance Free", "Long Service Life"]
   },
   {
@@ -49,7 +49,7 @@ const categories = [
     description: "Original and aftermarket parts for concrete pumps and industrial machinery.",
     icon: Wrench,
     productCount: 156,
-    brands: ["Bavaria", "OEM Partners"],
+    brands: ["LEHCOF", "OEM Partners"],
     features: ["Original Quality", "Quick Delivery", "Technical Support"]
   },
   {
