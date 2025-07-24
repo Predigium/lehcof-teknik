@@ -19,7 +19,7 @@ const Header = () => {
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="h-4 w-4" />
-                <span>info@lehcof-technic.com</span>
+                <span>info@lehcof-teknik.com</span>
               </div>
             </div>
             <div className="hidden md:block">
@@ -38,7 +38,7 @@ const Header = () => {
               <span className="text-primary-foreground font-bold text-xl">LT</span>
             </div>
             <div>
-              <h1 className="text-xl font-bold text-foreground">LEHCOF TECHNIC</h1>
+              <h1 className="text-xl font-bold text-foreground">Lehcof Teknik</h1>
               <p className="text-sm text-muted-foreground">Trading & Services</p>
             </div>
           </Link>

@@ -57,7 +57,7 @@ const products = [
     id: 5,
     name: "Hydraulic Pump Assembly",
     category: "Equipment Parts",
-    brand: "LEHCOF",
+    brand: "Lehcof",
     price: "$1,299.00",
     description: "Complete hydraulic pump assembly for concrete pumps and industrial machinery.",
     image: "/placeholder.svg",
@@ -78,7 +78,7 @@ const products = [
 ];
 
 const categories = ["All", "Engine Oils", "Hydraulic Oils", "Gear Oils", "Greases", "Batteries", "Equipment Parts"];
-const brands = ["All", "Mobil", "Petronas", "GP", "ENOC", "LEHCOF"];
+const brands = ["All", "Mobil", "Petronas", "GP", "ENOC", "Lehcof"];
 
 const Products = () => {
   const [searchTerm, setSearchTerm] = useState("");

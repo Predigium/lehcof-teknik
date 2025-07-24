@@ -13,12 +13,12 @@ const Footer = () => {
                 <span className="text-primary-foreground font-bold">LT</span>
               </div>
               <div>
-                <h3 className="text-lg font-bold">LEHCOF TECHNIC</h3>
+                <h3 className="text-lg font-bold">Lehcof Teknik</h3>
                 <p className="text-sm opacity-80">Trading & Services</p>
               </div>
             </div>
             <p className="text-sm opacity-80 leading-relaxed">
-              LEHCOF TECHNIC LLC is a leading supplier of industrial equipment and lubricants 
+              Lehcof Teknik LLC is a leading supplier of industrial equipment and lubricants 
               in the Middle Eastern region, with headquarters in the UAE.
             </p>
           </div>
@@ -81,7 +81,7 @@ const Footer = () => {
               <div className="flex items-start gap-3">
                 <Mail className="h-4 w-4 mt-1 opacity-80" />
                 <div>
-                  <p className="text-sm">info@lehcof-technic.com</p>
+                  <p className="text-sm">info@lehcof-teknik.com</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
@@ -105,7 +105,7 @@ const Footer = () => {
         <div className="border-t border-gray-700 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm opacity-80">
-              © 2024 LEHCOF TECHNIC LLC. All rights reserved.
+              © 2024 Lehcof Teknik LLC. All rights reserved.
             </p>
             <div className="flex gap-6 mt-4 md:mt-0">
               <Link to="/privacy" className="text-sm opacity-80 hover:opacity-100 transition-opacity">
