@@ -17,9 +17,9 @@ const stats = [
     description: "Exports in"
   },
   {
-    number: "20000+",
-    label: "Square Feet",
-    description: "Our Warehouse"
+    number: "100,000+",
+    label: "Items in Stock",
+    description: "Our Inventory"
   }
 ];
 
