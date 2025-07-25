@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-industrial.jpg";
+import heroImage from "@/assets/hero-industries.jpg";
 const Hero = () => {
   return <section className="relative min-h-[80vh] flex items-center justify-center bg-cover bg-center bg-no-repeat" style={{
     backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(${heroImage})`
