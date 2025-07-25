@@ -12,7 +12,7 @@ const stats = [
     description: "Operations in"
   },
   {
-    number: "30+",
+    number: "7+",
     label: "Countries Worldwide",
     description: "Exports in"
   },
