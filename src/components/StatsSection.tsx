@@ -2,7 +2,7 @@ import { Card } from "@/components/ui/card";
 
 const stats = [
   {
-    number: "1000+",
+    number: "120+",
     label: "Happy Customers",
     description: "More Than"
   },
