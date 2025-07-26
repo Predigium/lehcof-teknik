@@ -31,12 +31,10 @@ const ProductsSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            What We Sell... ???
+            What We Sell
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Our products are engineered to exhibit high quality and peak performance while used for demanding jobs. 
-            Each of our tools is backed by several services and support programs to guarantee minimized downtime 
-            and to assist in fluid continuity of performance.
+            Lehco-Teknik is your premier supplier of industry-specific equipment and spares for Defence, Marine, Offshore, and Industrial sectors. We offer seamless door-to-door deliveries to Saudi, Qatar, Kuwait, Bahrain, Oman, and Pakistan, handling all port and customs formalities.
           </p>
         </div>
 
