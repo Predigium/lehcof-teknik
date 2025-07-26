@@ -6,16 +6,11 @@ const Hero = () => {
   }}>
       <div className="container mx-auto px-4 text-center text-white">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-            Premier Supplier of Industry-Specific
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+            #1 SUPPLIER FOR INDUSTRY SPECIFIC
           </h1>
-          <h2 className="text-3xl md:text-5xl font-bold mb-8 text-primary">Equipment & Spares</h2>
-          <p className="text-lg md:text-xl mb-6 opacity-90">
-            For Defence, Marine, Offshore, and Industrial sectors
-          </p>
-          <p className="text-base md:text-lg mb-8 opacity-80 max-w-3xl mx-auto">
-            Seamless door-to-door deliveries to Saudi, Qatar, Kuwait, Bahrain, Oman, and Pakistan, handling all port and customs formalities.
-          </p>
+          <h2 className="text-4xl md:text-6xl font-bold mb-8 text-primary">EQUIPMENTS & SPARES</h2>
+          <p className="text-xl md:text-2xl mb-8 opacity-90">DEFENCE | MARINE | OFFSHORE | INDUSTRIAL</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-primary hover:bg-industrial-accent-hover text-lg px-8 py-4">
               View Our Products
