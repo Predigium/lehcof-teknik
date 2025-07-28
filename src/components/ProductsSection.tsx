@@ -3,6 +3,18 @@ import { Button } from "@/components/ui/button";
 import lubricantsImage from "@/assets/products-lubricants.jpg";
 import equipmentImage from "@/assets/products-equipment.jpg";
 import batteriesImage from "@/assets/products-batteries.jpg";
+import hosesImage from "@/assets/products-hoses.jpg";
+import pipesImage from "@/assets/products-pipes.jpg";
+import shipSparesImage from "@/assets/products-ship-spares.jpg";
+import pumpsImage from "@/assets/products-pumps.jpg";
+import electricalsImage from "@/assets/products-electricals.jpg";
+import metalsImage from "@/assets/products-metals.jpg";
+import fastenersImage from "@/assets/products-fasteners.jpg";
+import safetyImage from "@/assets/products-safety.jpg";
+import engineSparesImage from "@/assets/products-engine-spares.jpg";
+import abrasivesImage from "@/assets/products-abrasives.jpg";
+import toolsImage from "@/assets/products-tools.jpg";
+import machiningImage from "@/assets/products-machining.jpg";
 
 const products = [
   {
@@ -22,6 +34,78 @@ const products = [
     description: "Heavy-duty batteries and power systems for industrial and commercial applications.",
     image: batteriesImage,
     features: ["Long Lasting", "Reliable Power", "Maintenance Free"]
+  },
+  {
+    title: "Hoses and Fittings",
+    description: "Industrial hoses, hydraulic fittings, and coupling systems for various applications.",
+    image: hosesImage,
+    features: ["Pressure Tested", "Multiple Sizes", "Durable Materials"]
+  },
+  {
+    title: "Pipes Valves and Fittings",
+    description: "Complete range of pipes, valves, and fittings for industrial and marine applications.",
+    image: pipesImage,
+    features: ["Corrosion Resistant", "Multiple Standards", "Quality Assured"]
+  },
+  {
+    title: "IMPA Ship Spares",
+    description: "Comprehensive marine spare parts following IMPA standards for shipping and offshore industries.",
+    image: shipSparesImage,
+    features: ["IMPA Certified", "Marine Grade", "Global Standards"]
+  },
+  {
+    title: "Pumps and Motors",
+    description: "Industrial pumps and electric motors for various applications and industries.",
+    image: pumpsImage,
+    features: ["Heavy Duty", "Energy Efficient", "Low Maintenance"]
+  },
+  {
+    title: "Electricals",
+    description: "Electrical components, control systems, and wiring solutions for industrial use.",
+    image: electricalsImage,
+    features: ["Safety Certified", "Weather Resistant", "Professional Grade"]
+  },
+  {
+    title: "Raw Metals",
+    description: "Steel, aluminum, and other metal materials for fabrication and manufacturing needs.",
+    image: metalsImage,
+    features: ["Grade Certified", "Custom Sizes", "Quick Delivery"]
+  },
+  {
+    title: "Fasteners",
+    description: "Bolts, nuts, screws, and hardware components for industrial assembly applications.",
+    image: fastenersImage,
+    features: ["Various Grades", "Corrosion Resistant", "Standard Compliant"]
+  },
+  {
+    title: "Safety",
+    description: "Personal protective equipment and safety gear for industrial environments.",
+    image: safetyImage,
+    features: ["Safety Certified", "Comfort Fit", "Industry Standards"]
+  },
+  {
+    title: "Engine Spares",
+    description: "Engine parts and components for marine, industrial, and automotive applications.",
+    image: engineSparesImage,
+    features: ["OEM Quality", "Wide Compatibility", "Tested Performance"]
+  },
+  {
+    title: "Abrasives",
+    description: "Grinding wheels, sandpaper, and polishing materials for surface finishing work.",
+    image: abrasivesImage,
+    features: ["Long Lasting", "Consistent Finish", "Various Grits"]
+  },
+  {
+    title: "Power Tools and Hand Tools",
+    description: "Professional power tools and hand tools for industrial and workshop applications.",
+    image: toolsImage,
+    features: ["Professional Grade", "Ergonomic Design", "Warranty Included"]
+  },
+  {
+    title: "Machining Tools",
+    description: "Precision cutting tools, drills, and CNC tooling for machining operations.",
+    image: machiningImage,
+    features: ["Precision Made", "Extended Life", "Multiple Coatings"]
   }
 ];
 
