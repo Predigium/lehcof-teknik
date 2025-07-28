@@ -74,11 +74,146 @@ const products = [
     image: "/placeholder.svg",
     inStock: true,
     features: ["Extreme Pressure", "High Temperature", "Water Resistant"]
+  },
+  // Shell Lubricants
+  {
+    id: 7,
+    name: "Shell Rimula R4 X 15W-40",
+    category: "Lubricants",
+    brand: "Shell",
+    price: "$42.50",
+    description: "Premium heavy-duty diesel engine oil for mixed fleets and tough operating conditions.",
+    image: "/placeholder.svg",
+    inStock: true,
+    features: ["Multi-grade", "Diesel Protection", "Extended Service Life"]
+  },
+  {
+    id: 8,
+    name: "Shell Tellus S2 M 46",
+    category: "Lubricants",
+    brand: "Shell",
+    price: "$38.75",
+    description: "High-quality hydraulic fluid for industrial and mobile applications.",
+    image: "/placeholder.svg",
+    inStock: true,
+    features: ["Hydraulic Protection", "Anti-wear", "Thermal Stability"]
+  },
+  {
+    id: 9,
+    name: "Shell Omala S4 GX 320",
+    category: "Lubricants",
+    brand: "Shell",
+    price: "$65.00",
+    description: "Advanced synthetic industrial gear oil for extreme conditions.",
+    image: "/placeholder.svg",
+    inStock: true,
+    features: ["Synthetic", "Extreme Pressure", "Long Service Life"]
+  },
+  {
+    id: 10,
+    name: "Shell Gadus S3 V100 2",
+    category: "Lubricants",
+    brand: "Shell",
+    price: "$55.20",
+    description: "High-performance lithium complex grease for automotive and industrial applications.",
+    image: "/placeholder.svg",
+    inStock: true,
+    features: ["Lithium Complex", "High Temperature", "Water Resistant"]
+  },
+  // Gulf Marine Oil
+  {
+    id: 11,
+    name: "Gulf Marine SAE 30",
+    category: "Lubricants",
+    brand: "Gulf Marine Oil",
+    price: "$48.90",
+    description: "Premium marine engine oil for commercial vessels and offshore applications.",
+    image: "/placeholder.svg",
+    inStock: true,
+    features: ["Marine Grade", "Corrosion Protection", "Salt Water Resistant"]
+  },
+  {
+    id: 12,
+    name: "Gulf Marine 2-Stroke Oil",
+    category: "Lubricants",
+    brand: "Gulf Marine Oil",
+    price: "$52.30",
+    description: "High-performance 2-stroke marine engine oil for outboard motors.",
+    image: "/placeholder.svg",
+    inStock: true,
+    features: ["2-Stroke Formula", "Clean Burn", "Engine Protection"]
+  },
+  {
+    id: 13,
+    name: "Gulf Marine Hydraulic Oil 32",
+    category: "Lubricants",
+    brand: "Gulf Marine Oil",
+    price: "$44.75",
+    description: "Marine-grade hydraulic oil for deck machinery and winches.",
+    image: "/placeholder.svg",
+    inStock: true,
+    features: ["Marine Approved", "Anti-foam", "Corrosion Inhibitors"]
+  },
+  {
+    id: 14,
+    name: "Gulf Marine Gear Oil 140",
+    category: "Lubricants",
+    brand: "Gulf Marine Oil",
+    price: "$46.80",
+    description: "Heavy-duty marine gear oil for propulsion systems and deck equipment.",
+    image: "/placeholder.svg",
+    inStock: true,
+    features: ["EP Protection", "Water Separation", "Seal Compatibility"]
+  },
+  // Condat Grease
+  {
+    id: 15,
+    name: "Condat Bioprex 2 EP",
+    category: "Lubricants",
+    brand: "Condat Grease",
+    price: "$78.50",
+    description: "Biodegradable lithium grease for environmentally sensitive applications.",
+    image: "/placeholder.svg",
+    inStock: true,
+    features: ["Biodegradable", "EP Properties", "Environmental Safe"]
+  },
+  {
+    id: 16,
+    name: "Condat Altemp Q NB 50",
+    category: "Lubricants",
+    brand: "Condat Grease",
+    price: "$85.20",
+    description: "High-temperature synthetic grease for extreme applications.",
+    image: "/placeholder.svg",
+    inStock: true,
+    features: ["High Temperature", "Synthetic Base", "Long Service Life"]
+  },
+  {
+    id: 17,
+    name: "Condat Stabyl 2",
+    category: "Lubricants",
+    brand: "Condat Grease",
+    price: "$68.90",
+    description: "Multi-purpose lithium grease for general industrial applications.",
+    image: "/placeholder.svg",
+    inStock: true,
+    features: ["Multi-purpose", "Water Resistant", "Good Pumpability"]
+  },
+  {
+    id: 18,
+    name: "Condat Marine Grease",
+    category: "Lubricants",
+    brand: "Condat Grease",
+    price: "$72.40",
+    description: "Specialized marine grease for shipboard and offshore equipment.",
+    image: "/placeholder.svg",
+    inStock: true,
+    features: ["Marine Grade", "Salt Water Resistant", "Anti-corrosion"]
   }
 ];
 
-const categories = ["All", "Engine Oils", "Hydraulic Oils", "Gear Oils", "Greases", "Batteries", "Equipment Parts"];
-const brands = ["All", "Mobil", "Petronas", "GP", "ENOC", "Lehcof"];
+const categories = ["All", "Engine Oils", "Hydraulic Oils", "Gear Oils", "Greases", "Batteries", "Equipment Parts", "Lubricants"];
+const brands = ["All", "Mobil", "Petronas", "GP", "ENOC", "Lehcof", "Shell", "Gulf Marine Oil", "Condat Grease"];
 
 const Products = () => {
   const [searchTerm, setSearchTerm] = useState("");
