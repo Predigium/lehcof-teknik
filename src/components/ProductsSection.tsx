@@ -120,7 +120,7 @@ const ProductsSection = () => {
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             Lehco-Teknik is your premier supplier of industry-specific equipment and spares for Defence, Marine, Offshore, and Industrial sectors.
           </p>
-          <p className="text-lg text-primary max-w-3xl mx-auto mt-4">
+          <p className="text-lg text-primary max-w-3xl mx-auto mt-4 font-bold">
             We offer seamless door-to-door deliveries to Saudi, Qatar, Kuwait, Bahrain, Oman, and Pakistan, handling all port and customs formalities.
           </p>
         </div>
